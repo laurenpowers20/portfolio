@@ -1,0 +1,98 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-family: 'Rampart One', cursive;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: magenta;
+  transition: 0.6s ease-in-out;
+}
+
+nav {
+  text-align: right;
+}
+
+li {
+  display: inline;
+  justify-content: space-between;
+  padding: 30px;
+  font-size: 40px;
+}
+
+.front-page-container {
+  height: 100vh;
+}
+
+.heading-container {
+  display:inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading {
+  font-size: 80px;
+}
+
+.logo {
+  max-height: 80px;
+padding-left: 50px;
+}
+
+.title {
+  font-size: 50px;
+  color: cyan;
+  display: block;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.fa-brands {
+  font-size: 80px;
+}
+
+.arrow-down {
+  text-align: center;
+  font-size: 20px;
+}
+.about {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 2;
+  grid-template-rows: 2;
+}
+
+
+h1 {
+  font-size: 60px;
+  grid-row: 1;
+}
+.bio {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  grid-row: 2;
+}
+
+.bio-pic {
+  height: 300px;
+  border-radius: 50%;
+  grid-column: 2;
+  grid-row: 2;
+}
+
+
+#projects {
+  height: 100vh;
+}
+#contact {
+  height: 100vh;
+}
