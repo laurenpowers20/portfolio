@@ -117,9 +117,9 @@ h1 {
 
 @media only screen and (max-width: 600px) {
   li {
-    display: inline;
+    display: block;
     justify-content: space-between;
-    padding: 30px;
+    padding: 10px;
     font-size: 20px;
   }
 
@@ -129,6 +129,7 @@ h1 {
 
   .fa-brands {
     font-size: 60px;
+    padding: 10px;
   }
 
   .bio-pic {
